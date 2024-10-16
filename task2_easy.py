@@ -11,6 +11,7 @@ def classify_triangle(input_string: str):
         return 'Не существует'
 
 
-input_string = input()
-result = classify_triangle(input_string)
-print(result)
+if __name__ == "__main__":
+    input_string = input()
+    result = classify_triangle(input_string)
+    print(result)
